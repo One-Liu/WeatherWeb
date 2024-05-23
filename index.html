@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Web</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="./node_modules/axios/dist/axios.min.js"></script>
+        <script type="text/javascript" src="js/weather.js"></script>
+    </head>
+    <body>
+        <div id="search">
+            <h1>Welcome to weather web</h1>
+            <input type="text" id="txt_city" placeholder="Type a city">
+            <br>
+            <input type="button" id="btnSearchCurrentWeather"
+                value="Search current weather"
+                onclick="getCurrentWeather()">
+            <br>
+            <input type="button" id="btnSearchWeatherForecast"
+                value="Search weather forecast"
+                onclick="getWeatherForecast()">
+        </div>
+
+        <div id="resultTitle">
+            <h2 id="city_search_type"></h2>
+        </div>
+        
+        <div id="result">
+            <div id="day1" class="day">
+                <h3 id="day1_title"></h3>
+                <img hidden id="img_day_1">
+                <p id="temp_min_day_1"></p>
+                <p id="temp_max_day_1"></p>
+            </div>
+            <div id="day2" class="day">
+                <h3 id="day2_title"></h3>
+                <img hidden id="img_day_2">
+                <p id="temp_min_day_2"></p>
+                <p id="temp_max_day_2"></p>
+            </div>
+            <div id="day3" class="day">
+                <h3 id="day3_title"></h3>
+                <img hidden id="img_day_3">
+                <p id="temp_min_day_3"></p>
+                <p id="temp_max_day_3"></p>
+            </div>
+            <div id="day4" class="day">
+                <h3 id="day4_title"></h3>
+                <img hidden id="img_day_4">
+                <p id="temp_min_day_4"></p>
+                <p id="temp_max_day_4"></p>
+            </div>
+            <div id="day5" class="day">
+                <h3 id="day5_title"></h3>
+                <img hidden id="img_day_5">
+                <p id="temp_min_day_5"></p>
+                <p id="temp_max_day_5"></p>
+            </div>
+        </div>
+    </body>
+</html>

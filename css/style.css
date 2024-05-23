@@ -1,0 +1,127 @@
+body {
+    background-image: url('https://media.baamboozle.com/uploads/images/240523/1616593798_144906.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    background-color: rgba(1,16,74,0.5);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(1,16,74,0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(1,16,74,0.5);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+p {
+    font-size: 15px;
+    color: #fff;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+}
+
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#resultTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+#result {
+    display: flex;
+    flex-direction: line;
+    align-items: start;
+    justify-content: center;
+    height: 40vh;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+#txt_city {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#btnSearchCurrentWeather {
+    width: fit-content;
+    height: 50px;
+    background-color: #0e5bc7;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#btnSearchCurrentWeather:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#btnSearchWeatherForecast {
+    width: fit-content;
+    height: 50px;
+    background-color: #0e5bc7;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#btnSearchWeatherForecast:hover {
+    background-color: #000;
+    color: #fff;
+}
